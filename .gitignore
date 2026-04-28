@@ -1,0 +1,31 @@
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+!**/src/main/**
+!**/src/test/**
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+*.eclipse
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
